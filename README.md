@@ -1,3 +1,7 @@
+<p align="center">
+<a href="https://vicuna.lmsys.org"><img src="assets/vicuna_logo.jpeg" width="20%"></a>
+</p>
+
 # vicuna_docker
 A dockerfile for vicuna
 

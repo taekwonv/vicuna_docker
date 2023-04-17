@@ -2,6 +2,7 @@
 <a href="https://vicuna.lmsys.org"><img src="https://github.com/lm-sys/FastChat/blob/main/assets/vicuna_logo.jpeg" width="20%"></a>
 </p>
 The original source of vicuna is here: https://github.com/lm-sys/FastChat
+The Dockerfile introduced here is based on a Vicuna fork https://github.com/thisserand/FastChat.git whose write is Martin Thissen.
 Here are the instructions to run the Vicuna-13B model with GPTQ-quantized mode in a docker container.
 You should now be able to run the Vicuna-13B model with GPTQ-quantized model on a single consumer GPU. Thanks to Martin Thissen for <a href="https://medium.com/@martin-thissen/vicuna-13b-best-free-chatgpt-alternative-according-to-gpt-4-tutorial-gpu-ec6eb513a717">his posting</a> on using GPTQ-quantized model with Vicuna.
 

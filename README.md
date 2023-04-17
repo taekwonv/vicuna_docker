@@ -20,8 +20,8 @@ git clone https://github.com/taekwonv/vicuna_docker.git
 cd vicuna_docker
 ```
 Open the `Dockerfile` with a text editor of your choice.
-Look for the line of code that contains the variable MY_TORCH_CUDA_ARCH_LIST.
-Replace MY_TORCH_CUDA_ARCH_LIST with your architecture version(s). You can find your architecture version in the section 'CUDA-Enabled NVIDIA Quadro and NVIDIA RTX' of the following link: https://developer.nvidia.com/cuda-gpus. For example, TORCH_CUDA_ARCH_LIST="7.5".
+Look for the line of code that contains the variable TORCH_CUDA_ARCH_LIST.
+Replace 7.5 with your architecture version(s). You can find your architecture version in the section 'CUDA-Enabled NVIDIA Quadro and NVIDIA RTX' of the following link: https://developer.nvidia.com/cuda-gpus
 Save the file.
 Run the following command to build the Docker image:
 ```

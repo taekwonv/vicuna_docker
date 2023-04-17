@@ -30,7 +30,7 @@ docker build -t vicuna_docker .
 Wait for the build process to finish. This may take some time, depending on your internet connection speed and the size of the Docker image.
 Once the build is done, run the following command to launch the service:
 ```
-docker run -p 7860:7860 vicuna_docker
+docker run --gpus all -p 7860:7860 vicuna_docker
 ```
 Open your web browser and navigate http://localhost:7860
 

@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://vicuna.lmsys.org"><img src="assets/vicuna_logo.jpeg" width="20%"></a>
+<a href="https://vicuna.lmsys.org"><img src="https://github.com/lm-sys/FastChat/blob/main/assets/vicuna_logo.jpeg" width="20%"></a>
 </p>
 
 # vicuna_docker

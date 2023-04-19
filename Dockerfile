@@ -2,7 +2,7 @@ FROM nvidia/cuda:11.7.0-devel-ubuntu20.04
 
 # Install git and other required packages
 ARG DEBIAN_FRONTEND=noninteractive
-RUN apt-get update && apt-get install -y && \    
+RUN apt-get update && \    
     apt-get install -y software-properties-common git curl wget && \
     add-apt-repository ppa:deadsnakes/ppa && \
     apt-get update && \
